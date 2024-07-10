@@ -1,0 +1,193 @@
+.main-body {
+    margin: 0;
+    padding: 0;
+    background-image: url("resources/resoimg/Background-01.svg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.logo {
+    background-image: url("resources/resoimg/RenuProductsLogo-01.svg");
+    height: 70px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background {
+
+    margin: 0;
+    padding: 0;
+    background-image: url("resources/resoimg/Background-01.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.logheader {
+    width: 600px;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Aldebaran";
+    src: url("fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf");
+}
+
+
+@font-face {
+    font-family: "FugazOne-Regular";
+    src: url("fonts/FugazOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Alde";
+    src: url("fonts/Aldebaran.ttf");
+}
+
+* {
+    font-family: "Poppins";
+    font-size: 14px;
+}
+
+.title0 {
+    font-family: "Alde";
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+
+.title01 {
+    font-family: "Aldebaran";
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.titlecrsl {
+    font-family: "Aldebaran";
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 10px;
+}
+
+.title02 {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.title03 {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.title04 {
+    font-size: 30px;
+    font-family: "FugazOne-Regular";
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    color: black;
+
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.crsldiv{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.login {
+    box-shadow: 0px 0px 10px 0px rgb(45, 45, 45);
+    border-radius: 10px;
+    background: rgb(252, 250, 255);
+    width: 450px;
+    padding: 20px;
+
+}
+
+.registar {
+    box-shadow: 0px 0px 10px 0px rgb(45, 45, 45);
+    border-radius: 10px;
+    background: rgb(252, 250, 255);
+    width: 600px;
+    padding: 20px;
+}
+
+.adminLogin {
+    box-shadow: 0px 0px 10px 0px rgb(45, 45, 45);
+    border-radius: 10px;
+    background: rgb(252, 250, 255);
+    width: 450px;
+    padding: 20px;
+
+}
+
+
+@media only screen and (max-width:800px) {
+
+    #responsive-table tbody,
+    #responsive-table td {
+        display: block;
+    }
+
+    #responsive-table thead tr {
+        display: none;
+    }
+
+    #responsive-table td {
+        position: relative;
+        border: none;
+        border-bottom: 1px solid #eee;
+        width: 100%;
+        display: flex;
+    }
+
+    #responsive-table td:before {
+        content: attr(data-title);
+        position: absolute;
+        left: 6px;
+        font-weight: bold;
+    }
+
+    #responsive-table tr {
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+
+
+/* Responcive Design */
+
+/* xs */
+@media (max-width: 475px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {
+    .container {
+        max-width: 475px;
+    }
+}
